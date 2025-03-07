@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="header">
       <nav class="navbar">
-        <a href="https://x.com/versegalleryNFT" class="logoTop">
+        <a href="#" class="logoTop">
           <img src={Discord} alt="x logo" />
         </a>
         <a href="https://x.com/versegalleryNFT" class="logoTop">

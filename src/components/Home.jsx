@@ -4,14 +4,23 @@ import Body from "./Body";
 import BgImg from "../assets/bg2.png";
 import "../assets/style.css";
 
+import "../assets/particles.css";
+import Particles from "../molecules/Particles";
+
 const Home = () => {
   return (
     <>
       <div className="home">
         <div className="bg" style={{ backgroundImage: `url(${BgImg})` }}>
-          <div className="overlay">
-            <Header />
-            <Body />
+          <div class="bg-animation">
+            <div className="overlay">
+              <Header />
+              <Body />
+              <div id="stars"></div>
+              <div id="stars2"></div>
+              <div id="stars3"></div>
+              <div id="stars4"></div>
+            </div>
           </div>
         </div>
       </div>
