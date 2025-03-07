@@ -32,15 +32,15 @@ export const EmailFrom = () => {
     <>
       <form ref={form} onSubmit={sendEmail} class="form">
         <div class="form-group">
-          <label for="email">Company Email</label>
+          <label for="email">Email</label>
           <input required="" name="user_name" id="email" type="text" />
         </div>
         <div class="form-group">
-          <label for="email">Company Email</label>
+          <label for="email">Name</label>
           <input required="" name="user_email" id="email" type="text" />
         </div>
         <div class="form-group">
-          <label for="textarea">How Can We Help You?</label>
+          <label for="textarea">How can we help you?</label>
           <textarea
             required=""
             cols="50"
