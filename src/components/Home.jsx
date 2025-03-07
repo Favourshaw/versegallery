@@ -3,7 +3,6 @@ import Header from "./Header";
 import Body from "./Body";
 import BgImg from "../assets/bg2.png";
 import "../assets/style.css";
-import ParticlesBg from "particles-bg";
 
 import "../assets/particles.css";
 
