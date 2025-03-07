@@ -5,7 +5,6 @@ import BgImg from "../assets/bg2.png";
 import "../assets/style.css";
 
 import "../assets/particles.css";
-import Particles from "../molecules/Particles";
 
 const Home = () => {
   return (
