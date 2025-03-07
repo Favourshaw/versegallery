@@ -9,8 +9,8 @@ export const EmailFrom = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_jbpfcu2", "template_s2jkau7", form.current, {
-        publicKey: "18rohrXIt4jwCoAF6",
+      .sendForm("service_zv1cxq6", "template_kp8egjm", form.current, {
+        publicKey: "gFzcqf90esdgR-CVd",
       })
       .then(
         () => {
